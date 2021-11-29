@@ -76,6 +76,7 @@ a:hover {
 #first_section {
   grid-column: 1/4;
   width: 100%;
+  height: 50%;
   min-height: 100vh;
   background-image: url(splashbillede.webp);
   background-size: cover;
@@ -162,17 +163,16 @@ p {
   background-size: cover;
   background-position: 50% 50%;
 }
-#fourth_section {
+/* #fourth_section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   /* grid-template-rows: 1fr 1fr 1fr; disse er fjernet fordi rows ikke er nødvendigt at definere i denne omgang */
-}
+/* }
 #fourth_section .section_wrapper {
   grid-column: 2/3;
   grid-row: 2/3;
-}
-
-#fifth_section {
+} */
+*/ #fifth_section {
   grid-column: 1/4;
   /* width: 100%; */
   min-height: 100vh;
@@ -195,6 +195,10 @@ p {
   box-shadow: 5px 5px #312f2f; */
   background-color: white;
   padding: 20px;
+}
+
+video {
+  max-width: 100%;
 }
 
 /* alt der sker inde i denne media - sker KUN på siden når wbbrowseren er over 700px i bredde  */
